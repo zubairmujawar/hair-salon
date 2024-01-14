@@ -1,0 +1,28 @@
+.navbar {
+  width: 100%;
+  height: 50px;
+  position: absolute;
+  display: flex;
+  justify-content: space-around;
+  background: linear-gradient(rgba(0, 0, 0, 0.418), rgba(0, 0, 0, 0.071));
+}
+.navbar ul {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+.navbar ul li {
+  text-decoration: none;
+  cursor: pointer;
+  transition: 0.3s;
+}
+.navbar ul li:hover {
+  color: #fff;
+}
+.navbar img {
+  width: 100vw;
+  height: 100vh;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
