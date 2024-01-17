@@ -2,7 +2,7 @@
   width: 100vw;
   min-height: 100vh;
   background: linear-gradient(rgba(0, 0, 0, 0.05), #ffc107),
-    url(../../../public/images/barber.jpg);
+    url(../../../public/images/banner.jpg);
   /* background: linear-gradient(rgba(158, 148, 148, 0.092), rgba(159, 146, 25, 0.929)), url(../../../public/images/barber.jpg); */
   background-position: center;
   background-repeat: no-repeat;
@@ -11,7 +11,6 @@
   justify-content: center;
   flex-direction: column;
   align-items: center;
-  gap: 8px;
 }
 .herosection h1 {
   font-size: 4rem;
@@ -21,7 +20,8 @@
   font-style: normal;
 }
 .herosection p {
-  font-size: 1rem;
+  font-size: 1.5rem;
+  font-style: italic;
   font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
 }
 .btn-div {
@@ -29,6 +29,8 @@
   justify-content: space-evenly;
   align-items: center;
   gap: 8px;
+  margin-top: 1.5rem;
+  
 }
 /* .btn-div button {
   background-color: white;
@@ -49,7 +51,6 @@
   text-decoration: none;
   border: 1px solid ;
   display: inline-block;
-  /* margin: 0 10px; */
   display: flex;
   justify-content: center;
   align-items: center;
@@ -57,6 +58,7 @@
   color: black;
   position: relative;
   z-index: 1;
+  transition: color 0.5s;
 }
 .btn-div a span{
   width: 0%;
@@ -65,7 +67,7 @@
   top: 0;
   left: 0;
   background-color: black;
-  transition: 0.5s;
+  transition: 0.8s;
   z-index: -1;
 }
 .btn-div a:hover span{
@@ -74,5 +76,20 @@
 }
 .btn-div a:hover {
   color: #ffc107;
-  border: 1px solid #ffc107;
+  border: 1px solid black;
+}
+.navmunu{
+  width: 50px;
+  height: 50px;
+  background-color: rgb(255, 255, 255);
+  text-align: center;
+  position: fixed;
+  right: 30px;
+  top: 20px;
+  z-index: 3;
+  cursor: pointer;
+}
+.navmunu img{
+  width: 20px;
+  margin-top: 15px;
 }
