@@ -23,9 +23,6 @@ const Navbar = () => {
         <li>Contact</li>
       </ul>
     </nav>
-    {/* <div className="menuBtn"> 
-      <img src="../../../public/images/banner.jpg" alt="img" id='menu'  />
-    </div> */}
     </>
   )
 }
