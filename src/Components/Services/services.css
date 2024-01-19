@@ -1,0 +1,39 @@
+.services-div{
+    width: 100vw;
+    height: 90vh;
+    background: url(../../assets/services_bg.jpg), linear-gradient(#fcfcfc, #cacaca);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.service-info{
+    width: 40%;
+    margin-left: 8rem;
+    padding-top: 5rem;
+    height: 70%;
+    /* border: 2px solid red; */
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    /* margin-top: 2rem; */
+    gap: 1rem;
+}
+.service-data{
+    width: 10rem;
+    height: 10rem;
+    padding: 8px;
+    /* border: 1px solid black; */
+}
+.service-data h3{
+    font-size: 1rem;
+}
+.service-data p{
+    font-size: 0.6rem;
+}
+.service-data img{
+    width: 100px;
+    
+    height: 100px;
+    /* border: 1px solid red; */
+    background-size: contain;
+}

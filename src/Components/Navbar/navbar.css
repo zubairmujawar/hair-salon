@@ -6,19 +6,24 @@
   justify-content: space-around;
   /* background: linear-gradient(rgba(0, 0, 0, 0.418), rgba(0, 0, 0, 0.929)); */
 }
+.navbar h2{
+  color: #E8E8E8;
+}
 .navbar ul {
   list-style: none;
   display: flex;
   align-items: center;
   gap: 12px;
+  padding-top: 1rem;
 }
 .navbar ul li {
   text-decoration: none;
   cursor: pointer;
   transition: 0.3s;
+  color: #E8E8E8;
 }
 .navbar ul li:hover {
-  color: #fff;
+  color: #ffc107;
 }
 .navbar img {
   width: 100vw;

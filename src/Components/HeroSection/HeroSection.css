@@ -1,9 +1,9 @@
 .herosection {
   width: 100vw;
   min-height: 100vh;
-  background: rgb(129, 128, 128);
+  background: black;
   /* background: radial-gradient(farthest-corner at 70% 55%,black,gray); */
-  background: linear-gradient(rgba(0, 0, 0, 0.05), #000);
+  /* background: linear-gradient(rgba(0, 0, 0, 0.05), #000); */
   /* background: linear-gradient(rgba(158, 148, 148, 0.092), rgba(159, 146, 25, 0.929)), url(../../../public/images/barber.jpg); */
   background-position: center;
   background-repeat: no-repeat;
@@ -23,6 +23,7 @@
 }
 .home-info p {
   font-size: 1.5rem;
+  color: rgb(236, 236, 236);
   font-style: italic;
   font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
 }
@@ -74,8 +75,10 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  font-style: italic;
+  font-weight: 500;
   padding: 12px 0;
-  color: black;
+  color: #e8e8e8;
   position: relative;
   z-index: 1;
   transition: color 0.5s;
@@ -86,7 +89,7 @@
   position: absolute;
   top: 0;
   left: 0;
-  background-color: black;
+  background-color: #ffc107;
   transition: 0.8s;
   z-index: -1;
 }
@@ -95,8 +98,10 @@
   /* color: #ffc107; */
 }
 .btn-div a:hover {
-  color: #ffc107;
-  border: 1px solid black;
+  color: black;
+  font-size: 1rem;
+  font-style: normal;
+  border: 1px solid #ffc107;
 }
 .navmunu {
   width: 50px;
