@@ -27,24 +27,23 @@
   font-style: italic;
   font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
 }
-.bg-div{
+.bg-div {
   width: 50%;
   height: 100%;
   background-size: contain;
   display: flex;
   justify-content: center;
 }
-.img-div{
+.img-div {
   width: 50%;
   /* height: 50%; */
   background-size: contain;
   display: flex;
   justify-content: center;
 }
-#home-img{
+#home-img {
   width: 50%;
   height: 80%;
-
 }
 .btn-div {
   display: flex;
