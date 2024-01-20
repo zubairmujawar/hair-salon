@@ -7,6 +7,8 @@ import Services from "./Components/Services/Services";
 import "./Components/Services/services.css"
 import Story from "./Components/Story/Story";
 import "./Components/Story/story.css"
+import Footer from "./Components/Footer/Footer";
+import "./Components/Footer/footer.css"
 
 function App() {
   return (
@@ -15,6 +17,7 @@ function App() {
       <HeroSection />
       <Services/>
       <Story/>
+      <Footer/>
     </div>
   );
 }
