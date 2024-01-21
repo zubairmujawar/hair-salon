@@ -1,5 +1,69 @@
-.footer-div{
-    width: 100vw;
-    height: 70vh;
-    border: 2px solid red;
+.footer-div {
+  width: 100vw;
+  height: 70vh;
+  /* border: 2px solid red; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(
+    rgba(154, 154, 154, 0.18),
+    rgba(120, 120, 121, 0.161)), url(../../assets/Untitled\ design.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    backdrop-filter: blur(10px);
+  /* background-color: rgba(255, 255, 255, 0.5); Set a background color with opacity */
+  /* opacity: 1; */
+}
+.footer-div {
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  backdrop-filter: blur(10px);
+  z-index: 1;
+}
+.footer-section {
+  width: 90vw;
+  height: 40vh;
+  /* border: 1px solid red; */
+  display: flex;
+  justify-content: space-evenly;
+  /* align-items: center; */
+}
+.footer-left {
+  /* border: 1px solid blue; */
+  display: flex;
+  flex-direction: column;
+  padding: 1rem;
+}
+.footer-left h5 {
+  font-size: 1rem;
+}
+.footer-right {
+  /* border: 1px solid blue; */
+  flex-direction: column;
+  display: flex;
+  align-items: center;
+}
+footer-right h5 {
+  font-size: 1rem;
+}
+.footer-center h5 {
+  font-size: 1rem;
+}
+.icons {
+  color: black;
+}
+.icons:hover {
+  color: #ffc107;
+}
+.footer-center {
+  /* border: 1px solid blue; */
+  display: flex;
+  flex-direction: column;
+}
+.phone-div {
+  display: flex;
+  align-items: center;
+  gap: 5px;
 }

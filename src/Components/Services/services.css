@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap");
 .services-div {
   width: 100vw;
   height: 90vh;
@@ -21,11 +22,17 @@
 }
 .services-div h2 {
   text-align: center;
-  font-family: "Times New Roman", Times, serif;
-  font-weight: 700;
   font-size: 3rem;
   padding-top: 1rem;
+  font-family: "Great Vibes", cursive;
+  font-weight: 400;
+  font-style: normal;
 }
+/* .services-div h2 {
+  font-family: "Great Vibes", cursive;
+  font-weight: 400;
+  font-style: normal;
+} */
 .service-data {
   width: 10rem;
   height: 10rem;
