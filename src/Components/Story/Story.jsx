@@ -2,7 +2,7 @@ import React from "react";
 import storyImg from "../../assets/story.jpg";
 const Story = () => {
   return (
-    <div className="story-div">
+    <div className="story-div"id="about">
       <h2>Our Story</h2>
       <div className="info-story-div">
         <div className="left">

@@ -17,14 +17,14 @@ const Navbar = () => {
     <nav className='navbar'>
       <h2>Logo</h2>
       <ul>
-        <li>Home</li>
-        <li>About</li>
-        <li>Services</li>
-        <li>Contact</li>
+        <li><a href='/home' className='Home-link'>Home</a></li>
+        <li><a href='/about' className='About-link'>About</a></li>
+        <li><a href='/sevices' className='Services-link'>Services</a></li>
+        <li><a href='/contact' className='Contact-link'>Contact</a></li>
       </ul>
     </nav>
     </>
   )
 }
 
-export default Navbar
+export default Navbar;

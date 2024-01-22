@@ -5,6 +5,10 @@
     box-sizing: border-box;
     font-family: 'poppins';
 }
+body{
+    overflow-x: hidden;
+    scroll-behavior:smooth;
+}
 .main-container{
     width: 100vw;
     min-height: 100vh;

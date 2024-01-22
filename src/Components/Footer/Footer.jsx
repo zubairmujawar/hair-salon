@@ -6,13 +6,16 @@ import { BsFillStopwatchFill } from "react-icons/bs";
 import { RiInstagramFill } from "react-icons/ri";
 import { FaSquareXTwitter } from "react-icons/fa6";
 import { FaFacebookSquare } from "react-icons/fa";
+import { IoLogoWhatsapp } from "react-icons/io";
+
 // import contactBg from "../../assets/port-gallery-img-2.jpg"
 const Footer = () => {
   const twitterUrl = "https://twitter.com";
   const instagramUrl = "https://instagram.com";
   const facebookUrl = "https://facebook.com";
+  const whatsAppUrl = "https://whatsapp.com"
   return (
-    <div className="footer-div">
+    <div className="footer-div" id="contact">  
       {/* <img src={contactBg} alt="contactBg" /> */}
       <div className="footer-section">
         <div className="footer-left">
@@ -50,7 +53,13 @@ const Footer = () => {
           <a href={facebookUrl} target="_blank" rel="noopener noreferrer">
             <FaFacebookSquare className="icons" style={{ fontSize: "36px" }} />
           </a>
+          <a href={whatsAppUrl} target="_blank" rel="noopener noreferrer">
+            <IoLogoWhatsapp  className="icons" style={{ fontSize: "36px" }} />
+          </a>
         </div>
+      </div>
+      <div className="copyRight">
+      <p>© 2024 Hair salon, All Rights Reserved</p>
       </div>
     </div>
   );
