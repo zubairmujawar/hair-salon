@@ -50,8 +50,9 @@
   align-items: center;
   padding: 1rem;
 }
-footer-right h5 {
+.footer-right h5 {
   font-size: 1rem;
+  margin-bottom: 0.5rem;
 }
 .footer-center h5 {
   font-size: 1rem;
@@ -88,4 +89,21 @@ footer-right h5 {
 .copyRight p {
   font-size: 1rem;
   color: white;
+}
+@media only screen and (max-width: 600px) {
+  .footer-div{
+    height: 100vh;
+    flex-direction: column;
+  }
+  .footer-section{
+    flex-direction: column;
+  }
+  .copyRight p {
+    font-size: 0.8rem;
+  }
+  .footer-right{
+  display: flex;
+  gap: 1rem;
+  align-items: normal;
+  }
 }

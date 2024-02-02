@@ -13,10 +13,9 @@ const Footer = () => {
   const twitterUrl = "https://twitter.com";
   const instagramUrl = "https://instagram.com";
   const facebookUrl = "https://facebook.com";
-  const whatsAppUrl = "https://whatsapp.com"
+  const whatsAppUrl = "https://whatsapp.com";
   return (
-    <div className="footer-div" id="contact">  
-      {/* <img src={contactBg} alt="contactBg" /> */}
+    <div className="footer-div" id="contact">
       <div className="footer-section">
         <div className="footer-left">
           <h5>Contact</h5>
@@ -43,23 +42,33 @@ const Footer = () => {
           <p>Pravicy and Policy</p>
         </div>
         <div className="footer-right">
-          <h5>Follow Us On</h5>
-          <a href={instagramUrl} target="_blank" rel="noopener noreferrer">
-            <RiInstagramFill className="icons" style={{ fontSize: "36px" }} />
-          </a>
-          <a href={twitterUrl} target="_blank" rel="noopener noreferrer">
-            <FaSquareXTwitter className="icons" style={{ fontSize: "36px" }} />
-          </a>
-          <a href={facebookUrl} target="_blank" rel="noopener noreferrer">
-            <FaFacebookSquare className="icons" style={{ fontSize: "36px" }} />
-          </a>
-          <a href={whatsAppUrl} target="_blank" rel="noopener noreferrer">
-            <IoLogoWhatsapp  className="icons" style={{ fontSize: "36px" }} />
-          </a>
+          <div>
+            <h5>Follow Us On</h5>
+          </div>
+          <div>
+            <a href={instagramUrl} target="_blank" rel="noopener noreferrer">
+              <RiInstagramFill className="icons" style={{ fontSize: "36px" }} />
+            </a>
+            <a href={twitterUrl} target="_blank" rel="noopener noreferrer">
+              <FaSquareXTwitter
+                className="icons"
+                style={{ fontSize: "36px" }}
+              />
+            </a>
+            <a href={facebookUrl} target="_blank" rel="noopener noreferrer">
+              <FaFacebookSquare
+                className="icons"
+                style={{ fontSize: "36px" }}
+              />
+            </a>
+            <a href={whatsAppUrl} target="_blank" rel="noopener noreferrer">
+              <IoLogoWhatsapp className="icons" style={{ fontSize: "36px" }} />
+            </a>
+          </div>
         </div>
       </div>
       <div className="copyRight">
-      <p>© 2024 Hair salon, All Rights Reserved</p>
+        <p>© 2024 Hair salon, All Rights Reserved</p>
       </div>
     </div>
   );
