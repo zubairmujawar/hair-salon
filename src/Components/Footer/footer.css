@@ -7,13 +7,15 @@
   justify-content: center;
   align-items: center;
   background: linear-gradient(
-    rgba(154, 154, 154, 0.18),
-    rgba(120, 120, 121, 0.161)), url(../../assets/Untitled\ design.png);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    backdrop-filter: blur(10px);
-    position: relative;
+      rgba(154, 154, 154, 0.18),
+      rgba(120, 120, 121, 0.161)
+    ),
+    url(../../assets/Untitled\ design.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  backdrop-filter: blur(10px);
+  position: relative;
   /* background-color: rgba(255, 255, 255, 0.5); Set a background color with opacity */
   /* opacity: 1; */
 }
@@ -71,19 +73,19 @@ footer-right h5 {
   align-items: center;
   gap: 5px;
 }
-.copyRight{
-    width: 100vw;
-    height: 40px;
-    background: black;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    bottom: 0px;
-    font-weight: 300;
-    align-self: flex-end;
-    position: absolute;
+.copyRight {
+  width: 100vw;
+  height: 40px;
+  background: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  bottom: 0px;
+  font-weight: 300;
+  align-self: flex-end;
+  position: absolute;
 }
-.copyRight p{
-    font-size: 1rem;
-    color: white;
+.copyRight p {
+  font-size: 1rem;
+  color: white;
 }

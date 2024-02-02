@@ -1,7 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap");
 .services-div {
   width: 100vw;
-  height: 90vh;
+  height: 100vh;
   background: url(../../assets/services_bg.jpg),
     linear-gradient(#fcfcfc, #cacaca);
   background-position: center;

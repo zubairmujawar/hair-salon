@@ -12,7 +12,7 @@
 }
 .info-story-div {
   width: 90vw;
-  height: 90%;
+  height: 100vh;
   display: flex;
   justify-content: center;
   gap: 2rem;

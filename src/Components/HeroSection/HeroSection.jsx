@@ -10,11 +10,11 @@ const HeroSection = () => {
         <h1>Hair Salon</h1>
         <p>Style Your Hair, Style Your Life</p>
         <div className="btn-div">
-          <a href="sevices">
-            <span></span>Read More
+          <a className="box" href="/">
+            <span ></span>Read More
           </a>
-          <a href="#contact">
-            <span></span>Find Out
+          <a className="box" href="/">
+            <span ></span>Find Out
           </a>
         </div>
       </div>
