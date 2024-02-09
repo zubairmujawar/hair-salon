@@ -1,8 +1,8 @@
 import React from "react";
-import servImg4 from "../../assets/makeup.png";
-import servImg2 from "../../assets/hairdryer.png";
-import servImg3 from "../../assets/hair-cut-tool.png";
-import servImg1 from "../../assets/knife-blade (1).png";
+import servImg4 from "../../assets/img1.jpg";
+import servImg2 from "../../assets/img2.jpg";
+import servImg3 from "../../assets/img3.jpg";
+import servImg1 from "../../assets/img4.jpg";
 
 const Services = () => {
   let servicesArr = [
@@ -33,15 +33,27 @@ const Services = () => {
   ];
   return (
     <div className="services-div" id="sevices">
-        <h2>Our Services</h2>
+      <h2 className="services-h2">Our Services</h2>
       <div className="service-info">
-        {servicesArr.map((data) => (
+        {
+          servicesArr.map((data)=>{
+           return <div className="card" key={data.id}>
+          <img src={data.img} alt={data.title} className="card-image" />
+          <div className="card-cover">
+            <h3>{data.title}</h3>
+            <p>{data.description}</p>
+          </div>
+        </div>
+          })
+        }
+
+        {/* {servicesArr.map((data) => (
           <div className="service-data" key={data.id}>
             <img src={data.img} alt="servicesImg" />
             <h3>{data.title}</h3>
             <p>{data.description}</p>
           </div>
-        ))}
+        ))} */}
       </div>
     </div>
   );
