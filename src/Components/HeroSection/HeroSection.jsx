@@ -7,7 +7,7 @@ const HeroSection = () => {
         <img src={img} alt="img" id="home-img" />
       </div>
       <div className="home-info">
-        <h1>Hair Salon</h1>
+        <h1>Hair Affair</h1>
         <p>Style Your Hair, Style Your Life</p>
         <div className="btn-div">
           <a className="box" href="#sevices">
